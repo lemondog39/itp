@@ -30,7 +30,7 @@ Like let x = 2, y = 3, xy = 6 (Or maybe it doesn't make sense.)
 ### Chapter 3: Functions 
  
 - 1 thing I didn't know
- - I didn't know about how functions worked in JavaScript and the numerous kinds of notations used just regarding writing a function. I feel like even after reading the chapter, it's difficult for me to understand how a function works in a program. 
+  - I didn't know about how functions worked in JavaScript and the numerous kinds of notations used just regarding writing a function. I feel like even after reading the chapter, it's difficult for me to understand how a function works in a program. 
  
 - 1 thing I knew
- - From the previous chapter I know what a binding is and how to declare one, though this chapter addresses scopes in bindings, which I didn't know about. It was a bit hard to wrap my mind around the whole "local" and "global" concept of bindings and their scopes. 
+  - From the previous chapter I know what a binding is and how to declare one, though this chapter addresses scopes in bindings, which I didn't know about. It was a bit hard to wrap my mind around the whole "local" and "global" concept of bindings and their scopes. 
