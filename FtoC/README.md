@@ -4,7 +4,7 @@
 ### Program 1
 - Wrote a program in JavaScript converting 99 Fahrenheit into Celsius, as shown below:
 
-```let f = 99;
+ ```let f = 99;
 const c = ((f - 32)* (5/9));
 console.log(c);```
 
@@ -13,7 +13,7 @@ console.log(c);```
 ### Program 2 
 - Wrote a program in JavaScript to convert any value of Fahrenheit into Celsius, as shown below:
 
-```let f = prompt("What is the temperature in Fahrenheit?");
+ ```let f = prompt("What is the temperature in Fahrenheit?");
 const c = ((f - 32)* (5/9)); 
 console.log(c);```
 
@@ -21,7 +21,7 @@ console.log(c);```
 ### Program 1 
 - I borrowed the below code from the class repository:
 
-```const pi = 3.14;
+ ```const pi = 3.14;
 let radius = 11;
 const area = pi * (radius ** 2);
 console.log(area);```
@@ -32,7 +32,7 @@ console.log(area);```
 ### Program 2
 - I borrowed the below code from the class repository:
 
-```let height = prompt("What is your height in inches?");
+ ```let height = prompt("What is your height in inches?");
 const canRide = (height > 48) ? "Yes, you may ride." : "Sorry, you may not ride.";
 console.log(canRide);```
 
@@ -45,7 +45,7 @@ console.log(canRide);```
 ### Program 1 
 - At first I tried to make things too complicated and wrote the program as:
 
-```let f = "Fahrenheit", c = "Celsius";
+ ```let f = "Fahrenheit", c = "Celsius";
 let f = 99;
 const c = ((f - 32)* (5/9));
 console.log(c);```
