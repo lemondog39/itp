@@ -5,8 +5,8 @@
 - Wrote a program in JavaScript converting 99 Fahrenheit into Celsius, as shown below:
 
  ```let f = 99;
-const c = ((f - 32)* (5/9));
-console.log(c);```
+ const c = ((f - 32)* (5/9));
+ console.log(c);```
 
 - Running this program gave me the result of 37.22222222222222 (degrees Celsius). 
 
@@ -14,8 +14,8 @@ console.log(c);```
 - Wrote a program in JavaScript to convert any value of Fahrenheit into Celsius, as shown below:
 
  ```let f = prompt("What is the temperature in Fahrenheit?");
-const c = ((f - 32)* (5/9)); 
-console.log(c);```
+ const c = ((f - 32)* (5/9));
+ console.log(c);```
 
 ## How I did it:
 ### Program 1 
