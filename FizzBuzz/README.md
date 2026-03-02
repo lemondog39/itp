@@ -12,6 +12,7 @@ for (let i = 1500; i <= 2700; i++) {
     console.log(i);
   }
 }
+
 ```
 
 ```
