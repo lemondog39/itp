@@ -10,7 +10,7 @@
   if (i % 7 === 0 && i % 5 === 0) {
     console.log(i);
   }
-} ```
+} ``
 
 ``` let mmMIDI = 64;
 if (mmMIDI === 12) {
@@ -21,7 +21,7 @@ if (mmMIDI === 12) {
   console.log("MIDI is greater than 64.");
 } else {
   console.log("MIDI is less than 64 but not 12 or 13.");
-} ```
+} ``
 
 - The first code was to help with the divisibles, so that I could single out numbers divisible by 3, 5 and 3 AND 5. 
 - The second code was to help with the "else if" commands. 
@@ -37,7 +37,7 @@ if (mmMIDI === 12) {
 } else {
   console.log(i)
 }
-} ```
+} ``
 
 ## Problems I faced
 
@@ -55,7 +55,7 @@ if (mmMIDI === 12) {
   console.log("FizzBuzz");
 }
 }
-console.log(i) ```
+console.log(i) ``
 ​
 
 - This was obviously stupid because I copy and pasted my reference code but forgot to change the two defining values in the first line. 
@@ -79,7 +79,7 @@ Fizz
 FizzBuzz 
 23
 Fizz 
-FizzBuzz ```
+FizzBuzz ``
 
 - And so on
 
@@ -94,7 +94,7 @@ FizzBuzz ```
   console.log("FizzBuzz");
 }
 }
-console.log(i) ```
+console.log(i) ``
 
 - Resulted in this:
 
@@ -107,7 +107,7 @@ Fizz
 Buzz 
 3
 Fizz 
-Buzz ```
+Buzz ``
 
 - I think it was that I didn't have a final "else" line as well as the fact that the console.log(i) appeared OUTSIDE the braces that contained the conditions of the program. 
 - For the next program, I moved the console.log(i) inside the braces instead and wrote it as "else console.log(i)" as shown below.
@@ -124,7 +124,7 @@ Buzz ```
 } else {
   console.log(i)
 }
-} ```
+} ``
 
 - Resulted in this:
 
@@ -144,7 +144,7 @@ Fizz
 13
 14
 Fizz 
-16 ```
+16 ``
 
 - This was the closest I got to printing the correct results, but for the numbers that were divisible by 3 and 5 (in this case, 15), the word printed was just Fizz instead of FizzBuzz.
 - I assume it is because I wrote the ``` else if (i % 3 === 0 && i % 5 === 0) {console.log("FizzBuzz"); ``` as the last line, so whenever the program was run to print a number, it would just follow through and see ```if (i % 3 === 0) {console.log("Fizz");``` and immediately print Fizz for numbers divisible by 3 and ignore the rest of the code, regardless if it was also divisible by 5 or not. 
@@ -163,7 +163,7 @@ Fizz
 } else {
   console.log(i)
 }
-} ```
+} ``
  
 - Resulted in the correct sequence! Yay!
 
@@ -183,6 +183,6 @@ Fizz
 13
 14
 FizzBuzz 
-16 ```
+16 ``
 
 - And so on
