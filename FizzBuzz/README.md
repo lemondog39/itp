@@ -6,13 +6,16 @@
 - I ran each one through [p5.js](https://editor.p5js.org/)
 - I referenced 2 codes from the class repository:
 
-`for (let i = 1500; i <= 2700; i++) {
+````
+for (let i = 1500; i <= 2700; i++) {
   if (i % 7 === 0 && i % 5 === 0) {
     console.log(i);
   }
-}`
+}
+```
 
-`let mmMIDI = 64;
+```
+let mmMIDI = 64;
 if (mmMIDI === 12) {
   console.log("MIDI is 12.");
 } else if (mmMIDI === 13) {
@@ -21,7 +24,8 @@ if (mmMIDI === 12) {
   console.log("MIDI is greater than 64.");
 } else {
   console.log("MIDI is less than 64 but not 12 or 13.");
-}`
+}
+```
 
 - The first code was to help with the divisibles, so that I could single out numbers divisible by 3, 5 and 3 AND 5. 
 - The second code was to help with the "else if" commands. 
