@@ -6,7 +6,15 @@
 - I ran each one through [p5.js](https://editor.p5js.org/)
 - I referenced 2 codes from the class repository:
 
-````
+```
+git status
+git add
+git commit
+```
+
+
+
+```
 for (let i = 1500; i <= 2700; i++) {
   if (i % 7 === 0 && i % 5 === 0) {
     console.log(i);
