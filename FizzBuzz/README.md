@@ -146,7 +146,8 @@ for (let i = 0; i <= 100; i++) {
 
 - Resulted in this:
 
-` Fizz 
+```
+Fizz 
 1
 2
 Fizz 
@@ -162,7 +163,8 @@ Fizz
 13
 14
 Fizz 
-16 `
+16
+```
 
 - This was the closest I got to printing the correct results, but for the numbers that were divisible by 3 and 5 (in this case, 15), the word printed was just Fizz instead of FizzBuzz.
 - I assume it is because I wrote the ``` else if (i % 3 === 0 && i % 5 === 0) {console.log("FizzBuzz"); ``` as the last line, so whenever the program was run to print a number, it would just follow through and see ```if (i % 3 === 0) {console.log("Fizz");``` and immediately print Fizz for numbers divisible by 3 and ignore the rest of the code, regardless if it was also divisible by 5 or not. 
@@ -171,7 +173,8 @@ Fizz
 
 ## LAST PROGRAM!!
 
-` for (let i = 1; i <= 100; i++) {
+```
+for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
   console.log("FizzBuzz");
 } else if (i % 5 === 0)  {
@@ -181,12 +184,13 @@ Fizz
 } else {
   console.log(i)
 }
-} `
+}
+```
  
 - Resulted in the correct sequence! Yay!
 
-
-` 1
+```
+1
 2
 Fizz 
 4
@@ -201,6 +205,7 @@ Fizz
 13
 14
 FizzBuzz 
-16 `
+16
+```
 
 - And so on
