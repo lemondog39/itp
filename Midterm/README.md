@@ -5,7 +5,7 @@
 
 ![Phase 1](img/Phase1.png)
 
-- Translated sketch into javaScript code to print it digitally
+- Translated sketch into javaScript code to print it digitally on [p5.js](https://editor.p5js.org/)
 
 ![Phase 2](img/phase2.png)
 
