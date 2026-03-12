@@ -1,13 +1,13 @@
 function setup() {
-  createCanvas(400, 400); // Set the size of canvas
-  noStroke(); // Disable drawing the stroke
+  createCanvas(400, 400); 
+  noStroke(); 
 }
 
 function drawObject(x, y, s) {
   push();
   translate(x, y);
   scale(s);
-   fill(0); // Fill in with black color
+   fill(0); 
   square(10, 20, 60, 20);
   fill(300)
  ellipse(25, 50, 10, 10)

@@ -1,13 +1,13 @@
 function setup() {
-  createCanvas(800, 800); // Set the size of canvas
-  noStroke(); // Disable drawing the stroke
+  createCanvas(800, 800);
+  noStroke();
 }
 
 function drawObject(x, y, s) {
   push();
   translate(x, y);
   scale(1,1);
-   fill(0); // Fill in with black color
+   fill(0);
   square(10, 20, 60, 20);
   fill(300)
  ellipse(25, 50, 10, 10)
@@ -31,4 +31,3 @@ function draw() {
  }
 }
 
-![Final tessalated image](img/Phase4.png)
