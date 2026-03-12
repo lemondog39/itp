@@ -142,6 +142,7 @@ function draw() {
 
 ### Final
 
+```
 function setup() {
   createCanvas(800, 800); // Set the size of canvas
   noStroke(); // Disable drawing the stroke
@@ -174,6 +175,7 @@ function draw() {
   }
  }
 }
+```
 
 - I increased my canvas dimensions to 800x800 so that I could see more. Since this code worked, I also tried changing the canvas size a few times (200x100, 400x600, etc.) to see if it would change the number of times I saw the image. (it worked)
 
