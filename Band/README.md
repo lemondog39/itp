@@ -27,14 +27,15 @@
 
 - We were done with the website but thought it would be cool and funny to have a gif as a background. We didn't know how to do that so we tried editing the CSS file with this line of code from the [HTML Help Website](https://www.w3schools.com/html/default.asp)
 
-`
+```
 body {
-  background-image: url('img_girl.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+ background-image: url('img_girl.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
 }
-`
+
+```
 
 - This did not work so we had to do inline CSS coding and instead plonk it directly into the html index file, and for the CSS file we had the background just be white color. 
 
