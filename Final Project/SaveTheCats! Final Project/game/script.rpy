@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -21,6 +21,8 @@ define s = Character("Steve")
 # The game starts here.
 
 label start:
+
+    play music "cattheme.mp3" loop
 
     scene bg black screen
 
@@ -55,6 +57,7 @@ label start:
 label panic:
     na "You sit up abruptly, slamming your head into the poor cat’s face. The cat stumbles back from the impact, yowling in pain." with vpunch
 
+    play sound "annoyedmeow.wav" volume 0.25
     show cat servant with hpunch
 
     cwc "MEOWWWWWW!!!"
@@ -227,6 +230,9 @@ hide cat knight
 hide cat servant
 
 label meetprincess:
+
+    play sound "dooropen.wav"
+
     na "The wooden door inches open, and the both of you enter."
 
     na "The sight that greets your eyes is something you could never have imagined: Hundreds of cats mingling about in the large hall, chatting with each other, drinking, eating and dancing."

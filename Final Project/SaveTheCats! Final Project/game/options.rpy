@@ -151,6 +151,7 @@ define config.save_directory = "SavetheCats-1775147000"
 ## The icon displayed on the taskbar or dock.
 
 define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/window_icon.ico"
 
 
 ## Build configuration #########################################################

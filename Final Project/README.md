@@ -63,6 +63,9 @@
 - For this project I think I overestimated myself. For some reason I expected myself to manage to create a full length visual novel but obviously I did not do that.
 - I have a bunch of sprites that are in the game image files that I never got to use because I never made it far enough in the narrative to bring these characters out (script writing is really hard and I'm not talking about programming).
 - This is probably what I'd consider a "Good Outcome" - It's more of an introductory demo to the game's story and I basically have most if not all of the visuals I needed. 
+- The music also isn't the best but I wanted to test out if I could properly program a background track so I just wrote some bullshit and put it in.
+- Ultimately I'm quite happy with my end product for what it is because I feel like I spent enough time in the engine to learn the basics and try coding different things like sound, menu options, branching and visuals. 
+
 - I'm going to attach some of my favourite sprites that I didn't manage to use but liked a lot 
 
 ![Rat King](img/ratking.png)
