@@ -38,11 +38,13 @@
  - Besides this, I'm not kidding when I say the manual has everything. Stuff like how to add sound effects and music, how to add background images, how to create the menu that appears for the player to select dialogue choices, it's probably in the Quickstart Menu. 
  - This was really helpful to me because it meant I essentially had a one stop help resource for any question I had regarding how to code the game.
  
- - I'm not sure if this counts as cheating but there is One instance where me and my friend were sharing our games for this class, and what happened was that whenever I wanted the player to be able to make a rhetorical choice (as in a choice that doesn't lead to any kind of branching in the story but is more for interactivity), I would create a whole new scene (known as labels in Ren'Py).
+ - I'm not sure if this counts as cheating since I fixed this problem with a friend rather than finding a website or something.
+ - But there is One instance where me and my friend were sharing our games for this class, and what happened was that whenever I wanted the player to be able to make a rhetorical choice (as in a choice that doesn't lead to any kind of branching in the story but is more for interactivity), I would create a whole new scene (known as labels in Ren'Py).
  
 ![Without Pass](img/nopass.png)
 
  - This made my script look super messy because I had a bunch of unnecessary scenes that would be a singular line.
+ 
  - I did this because I originally thought that I could create the menu to have selections without branches? (See image for it to make sense I'm not sure how to explain). 
  
  - This actually results in errors where the game thinks there should be a choice but there isn't, leading to an error message. 
@@ -61,3 +63,8 @@
 - For this project I think I overestimated myself. For some reason I expected myself to manage to create a full length visual novel but obviously I did not do that.
 - I have a bunch of sprites that are in the game image files that I never got to use because I never made it far enough in the narrative to bring these characters out (script writing is really hard and I'm not talking about programming).
 - This is probably what I'd consider a "Good Outcome" - It's more of an introductory demo to the game's story and I basically have most if not all of the visuals I needed. 
+- I'm going to attach some of my favourite sprites that I didn't manage to use but liked a lot 
+
+![Rat King](img/ratking.png)
+![Rat Main](img/ratmaid.png)
+![Cat Queen](img/catqueen.png)
