@@ -34,8 +34,28 @@
 	After resizing 
 	
 	![After Resizing](img/spriteresized.png)
-
 	
+ - Besides this, I'm not kidding when I say the manual has everything. Stuff like how to add sound effects and music, how to add background images, how to create the menu that appears for the player to select dialogue choices, it's probably in the Quickstart Menu. 
+ - This was really helpful to me because it meant I essentially had a one stop help resource for any question I had regarding how to code the game.
+ 
+ - I'm not sure if this counts as cheating but there is One instance where me and my friend were sharing our games for this class, and what happened was that whenever I wanted the player to be able to make a rhetorical choice (as in a choice that doesn't lead to any kind of branching in the story but is more for interactivity), I would create a whole new scene (known as labels in Ren'Py).
+ 
+![Without Pass](img/nopass.png)
+
+ - This made my script look super messy because I had a bunch of unnecessary scenes that would be a singular line.
+ - I did this because I originally thought that I could create the menu to have selections without branches? (See image for it to make sense I'm not sure how to explain). 
+ 
+ - This actually results in errors where the game thinks there should be a choice but there isn't, leading to an error message. 
+ 
+![Wrong way to create non-branching menus](img/incorrect.png)
+ 
+![Error](img/error.png)
+ 
+ - My friend's game also had a lot of these interactivity/no branching choices, and what he did was in the "menu", rather than creating a new scene, he used this command called "pass". It basically does what as it says - It passes onto the next scene. 
+ 
+![With Pass](img/pass.png)
+
+![Correct way to create non-branching menus](img/correct.png)	
 
 ## Outcome? 
 - For this project I think I overestimated myself. For some reason I expected myself to manage to create a full length visual novel but obviously I did not do that.
